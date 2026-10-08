@@ -1,0 +1,10 @@
+{
+ "kind": "forecast bundle",
+ "name": "Can you predict the stock market? 20 weekly price-touch questions, week of 5 Oct 2026, settling 9 Oct 2026",
+ "information_cutoff_utc": "2026-10-08T12:23:02Z",
+ "sealed_utc": "2026-10-08T12:51:50Z",
+ "files": 653,
+ "contents": "question records, research dossiers and tool logs, forecast sessions and pooled forecasts",
+ "manifest": "sha256 of every file (path order), kept private until reveal",
+ "manifest_sha256": "4524f20912217db7aefd833f3a344f2138eaced12f7f69388fc6892b52ae2172"
+}
