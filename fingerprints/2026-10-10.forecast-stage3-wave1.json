@@ -1,0 +1,10 @@
+{
+ "kind": "forecast bundle",
+ "name": "Sikt Stage 3 wave 1: 265 Tier-1 questions, Opus 5.5 with and without search over Sikt's own archive (research/stage3.md)",
+ "information_cutoff_utc": "2026-10-10T00:19:54Z",
+ "sealed_utc": "2026-10-10T01:59:18Z",
+ "files": 6651,
+ "contents": "question records, research dossiers and tool logs, forecast sessions and pooled forecasts",
+ "manifest": "sha256 of every file (path order), kept private until reveal",
+ "manifest_sha256": "2badc594108dc28e2bd1da3e74454b1e7ba0cf82a172acf2a11b3c747ef786d2"
+}
