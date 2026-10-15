@@ -1,0 +1,10 @@
+{
+ "day": "2026-10-14",
+ "batch": 1,
+ "lo_id": 0,
+ "hi_id": 112222,
+ "records": 9659,
+ "merkle_root": "13e33de87bef989179f8add950caffe62f005699c6db98c89fa659528b001bf2",
+ "seal_file_sha256": "84502dce318ee851ce7a1a3210ed77245eef2a0a8a064db0e210700152d5cb5a",
+ "scheme": "sha256 of canonical JSON per record (manifest fields + sha256 of its exact WARC bytes); sorted; pairwise sha256"
+}
