@@ -1,0 +1,106 @@
+{
+ "what": "MidtermsBench v1: pre-registration, scoring code and forecasts so far (amendment 17 seal 1 of 2)",
+ "sealed_at_utc": "2026-10-29T22:15:39Z",
+ "repo_commit": "AllAboutAI-YT/sikt-intelligence@c7e203ffb6839f82a0a4c92b58f973dc06f63420",
+ "note": "Only hashes. Files are revealed with the results; anyone can check them against these sha256 values.",
+ "files": {
+  "research/midtermsbench_v1.md": "22326d6fc11e77f6e4c54c7cc66dfec45c7b3745b93c41acdc2bdbc1f8859409",
+  "research/midtermsbench_v1_amendment_1.md": "5bccf90e02c0e770eaaf1121dfc2198b32b4b25f8f773b8623e62d092ec55de7",
+  "research/midtermsbench_v1_amendment_10.md": "c4688200c1ba1779c79e25cdbb6aaa43d8594809a035e12aae605fc63e042238",
+  "research/midtermsbench_v1_amendment_11.md": "9cdb5ccfccbaf9d5fd643e4e3f43ea5d477c753b148e08360461563a4f3f6b31",
+  "research/midtermsbench_v1_amendment_12.md": "220904d1e8a0913bccb0b24a0f6fb4e7699878f704aedaf595f304f30db6b18d",
+  "research/midtermsbench_v1_amendment_13.md": "0be366e0ba3b3229b73b171a4abd59b0c8b68022126e4954659a58ba0a09a49a",
+  "research/midtermsbench_v1_amendment_14.md": "c0e24a22f5e12c5f9899681f5a203c2863e744c62be0fbdbef25824c879aea87",
+  "research/midtermsbench_v1_amendment_15.md": "b23baf411baf45b366f003c86911694dfa13f6cd62f9b8cc4d6d4df9e20d3573",
+  "research/midtermsbench_v1_amendment_16.md": "07a68ed391b568237a6b4be169926420ece3a7c01049a663823914114fc1a77c",
+  "research/midtermsbench_v1_amendment_17.md": "05704421b3e7636c760c7e7bcfe6e90447dcc098dea8fdc1a70c53375d6d8443",
+  "research/midtermsbench_v1_amendment_2.md": "cdffa6ef2e082426348a1509be24a06d650dcdbac26d25575bfbddf9b94f51f3",
+  "research/midtermsbench_v1_amendment_3.md": "cbbb62f966994a88b76f9b1b97d3ac39d881bca4d3d89c9c662aa5c7786dd3cc",
+  "research/midtermsbench_v1_amendment_4.md": "84b54c8da52496cf16d63e05ab44e16d60ae50cce43c2dc2a69e3779b288c59e",
+  "research/midtermsbench_v1_amendment_5.md": "dbc49d7cd82de31653d85501849d3079ef4f2862152dcd8ddffa5348d5debb50",
+  "research/midtermsbench_v1_amendment_6.md": "20800afd19f747be4367fa98b36d0445e4022999d5644d4bf7a6b3085eaaf0a8",
+  "research/midtermsbench_v1_amendment_7.md": "c04849f2d64adb511a2f25336f6aa1448e367c5e34d5583b648c356401000900",
+  "research/midtermsbench_v1_amendment_8.md": "922dabf6b98a38aa46238a836c1957c09c0d28e14fed358463b83405c7236e57",
+  "research/midtermsbench_v1_amendment_9.md": "6d9b811004ece8b832ff7b540abadde5055bcd7b5631bdc7fe8b771bf0cc1e87",
+  "research/midtermsbench_v1_scoring.md": "1de0aad01ef973cf70feff97f04e4147e90554581cd9f1b8ecdf783406aa57e7",
+  "research/results/midtermsbench_v1.json": "3bcb9c0f8a7a29046db4567ece7fe94db05f8c2c04834e441d0393d6510e7d51",
+  "sikt/midterms/score.py": "741e88ebf6d1ffcedb94a459a4d945b8c95cf836329b32387fcad1e54cd091c4",
+  "sikt/midterms/score_a17.py": "9a1c2b9e91711a53f84948182435b482a2f3178b4e76695a542ea8563ad4af34",
+  "tests/test_midterms_score.py": "764e8700cfaa7059557282bc779a7f597d2b1f076b131331c2f8bc8cdec14dfb",
+  "tests/test_midterms_score_a17.py": "7e0ac78962094e6df7d70ec410d86baa66e8182e3b109f5bc0fcb909f82baf04",
+  "sikt/midterms/margins.py": "48f0976850b37d74e83f482f0fc28384c2172bb9f1aec27cbc1a43973e9c1afd",
+  "sikt/midterms/pollbase.py": "eaf0bedb1f79efd4220c9230cc1d8e3ba319d0e210f22ca5e830352ad3b8c135",
+  "sikt/midterms/marginmarket.py": "4a12348979cbc686a5f8e3d00bd73e1fa4a368010e633c9b9c9e111a37113534",
+  "sikt/midterms/salvage.py": "14f156df1f257341041fe65602d06477c9de803b0926da0542a568863f54fdf2",
+  "tests/test_midterms_margins.py": "94abad36cf969a1ff0f5c9c839cbea5d4607ebcf9a536cfb01b83b030dc2bfd0",
+  "research/results/midterms_a17/leak_scan.py": "0fdec747ff6db51e205384039701c48a00a3f7b205adc0fc8feb354d18248ea1",
+  "research/results/midterms_a17/leak_hits.jsonl": "77b8519b3ae600e12fb37a97b0d9631da4ba5d44d50514d3edec821e6608af35"
+ },
+ "forecasts": {
+  "rounds/r01/summary.json": "2125b3f4e298a8a24cd274c343380a25e615bf02f67c45484d5eb13bfc594177",
+  "rounds/r01/summary_fair.json": "77251550c7ffd4974b413a92c1ed34b39d5c14a7f5d3006ba83c8a14089af28e",
+  "rounds/r02/summary.json": "f4a2961c09fc05b15da51575fc0d87e7682027ea28cd24e912d151b0ceb28d85",
+  "rounds/r03/summary.json": "dd9607d7bc062075b8eca7a18558e632abc72d629cbe8a582c91486152f8ea8b",
+  "rounds/r04/summary.json": "8c5339079507cb0aefb366f9d2a759544cad1a0229a7abc45f31db6182ebf199",
+  "rounds/r04b/summary.json": "e91996c1a9ad38e5927dba465b19d45e82be7931f2aa609dc0826070477eb374",
+  "rounds/r05/summary.json": "faf803fb05b940d95d33ba815035830d58236046aab39569bed3ac8899b814cd",
+  "rounds/r06/summary.json": "ec53e797a2d565658ce1a9032ba63b66c04273d6ec472c45b17449b9a17abf71",
+  "rounds/r07/summary.json": "24f95f5419b4bfcc8896e2d8ec474cba0be3c874db2f4568d5b1003aca7acd96",
+  "rounds/r08/summary.json": "bc3e81547a29780bada5a53172dd8ef6b9aca2b21a850c0ddd4b10bac45626ec",
+  "rounds/r09/margins/summary.json": "4e959277c01a97c7afe9e776a18a574d0f1f1dae135e3d25f06cc3d511880438",
+  "rounds/r09/summary.json": "0f43af2e4bbb7a63c177452ebea44f04bcb71e53cebba790364f90f7ffd272bd",
+  "rounds/r09/summary_salvage.json": "0236fcd1d4973fb1b49a961cba635c0f17368e44deec79dc4b39a93ef609168b",
+  "rounds/r10/margins/summary.json": "66c1d418b2820b5bf22ec5eb730f41e393eb11a902315b719d6123a500b596ec",
+  "rounds/r10/summary.json": "2cdbf5adda6c40459c3ec369f8a79c1cd891ba2a355355c0d3f884ab317f6706",
+  "rounds/r10/summary_salvage.json": "2a9f275c52376d973aca66816269f65fa8615a98fcc596c4ecb54cdd2fc4fb78"
+ },
+ "sessions": {
+  "how": "per round: sha256 of the text \"<sha256>  <path>\\n\" over every session file (forecasts and rationales), paths sorted",
+  "rounds": {
+   "r01": {
+    "session_files": 800,
+    "sha256_of_listing": "49013fba410af9243f08dd778536f7097fba8d58ed0d22d08dfa5266418b169c"
+   },
+   "r02": {
+    "session_files": 1800,
+    "sha256_of_listing": "cda42518a7e1d9ccaf9664bec9dc65b246987f3fd583bb4f95f3a6117cd2536a"
+   },
+   "r03": {
+    "session_files": 1400,
+    "sha256_of_listing": "a9c81b82a062dff481587fd1db6ba59c385016f2b67f7c095e13f7276f7d7d6c"
+   },
+   "r04": {
+    "session_files": 1482,
+    "sha256_of_listing": "19b89519383ea1e5434dda707cb8ab7cb62b519462707e8e39461ccca36a1a04"
+   },
+   "r04b": {
+    "session_files": 1582,
+    "sha256_of_listing": "252d6c999fd2bd21a8a08fe7b782b5fa78e116006cf87ad14c2f1b7ee47284f5"
+   },
+   "r05": {
+    "session_files": 1482,
+    "sha256_of_listing": "c02addffe31ec3de290266837ab0471b4bd2ba099cd8897312dbe58307c37f20"
+   },
+   "r06": {
+    "session_files": 1482,
+    "sha256_of_listing": "aeca1cb7a9168376e26effbeb91c241738495d661098d3f42ca434a21e2589a5"
+   },
+   "r07": {
+    "session_files": 462,
+    "sha256_of_listing": "e3fbb16692fdd917e579e2f2afd9f7c8f4154198789fd12ee5939086f8024552"
+   },
+   "r08": {
+    "session_files": 462,
+    "sha256_of_listing": "07ae6885ba0ca63bf5ad92a7c40f2d2ad065ae244798989aeae3ee371754c58c"
+   },
+   "r09": {
+    "session_files": 512,
+    "sha256_of_listing": "4db479361f8a44b6221a160b798a70c4d21e15e9fc0976ca45d0477f4633e303"
+   },
+   "r10": {
+    "session_files": 546,
+    "sha256_of_listing": "c13323e1f2562517bca74fa8da70b33f0f94291c84970ff9b3c6b2443a1fc9bc"
+   }
+  }
+ }
+}
