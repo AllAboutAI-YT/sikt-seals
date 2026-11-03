@@ -1,0 +1,95 @@
+{
+ "what": "MidtermsBench v1: pre-registration, scoring code and forecasts R11-R13 (amendment 17 seal 2 of 2)",
+ "sealed_at_utc": "2026-11-03T20:41:06Z",
+ "repo_commit": "AllAboutAI-YT/sikt-intelligence@01c85f8ecb7d2ce3e7236a406a6c58aa8bae1c5f",
+ "previous_seal": "midtermsbench/2026-10-29.1.json",
+ "note": "Only hashes. Files are revealed with the results; anyone can check them against these sha256 values. Same rules as seal 1: files and forecasts are sha256 of the file bytes; sessions per round are sha256 of the text \"<sha256>  <path>\\n\" over every session file, paths relative to data/bench/data, sorted.",
+ "status": {
+  "changed_since_seal_1": [
+   "research/midtermsbench_v1_amendment_17.md",
+   "sikt/midterms/score_a17.py",
+   "tests/test_midterms_score_a17.py"
+  ],
+  "addendum_5": "S7 readout added before any outcome: direct win chance vs margin-implied win chance, 12 Senate races in R13",
+  "S5_leak_audit": "step 1 files as listed; step 2 (Opus grading of R7-R13 hits) not completed before this seal and will be reported as late",
+  "polymarket_backfill": "R7-R10 cached; R11-R13 not yet backfilled",
+  "forecast_models_manual_copy": "not delivered before this seal (models_manual/ empty)",
+  "georgia": "SENATEGA-26 and GOVPARTYGA-26 handled as recorded in each round summary; no Georgia-only run merged into R13",
+  "why_changed": "Amendment 17 addenda 1-4 (10-29, commits 04fa618 841e06a 85fb94d a2a0dfe, all before R11 and before any outcome) and addendum 5 (11-03, 01c85f8, before any outcome); the git history shows each change."
+ },
+ "files": {
+  "research/midtermsbench_v1.md": "22326d6fc11e77f6e4c54c7cc66dfec45c7b3745b93c41acdc2bdbc1f8859409",
+  "research/midtermsbench_v1_amendment_1.md": "5bccf90e02c0e770eaaf1121dfc2198b32b4b25f8f773b8623e62d092ec55de7",
+  "research/midtermsbench_v1_amendment_10.md": "c4688200c1ba1779c79e25cdbb6aaa43d8594809a035e12aae605fc63e042238",
+  "research/midtermsbench_v1_amendment_11.md": "9cdb5ccfccbaf9d5fd643e4e3f43ea5d477c753b148e08360461563a4f3f6b31",
+  "research/midtermsbench_v1_amendment_12.md": "220904d1e8a0913bccb0b24a0f6fb4e7699878f704aedaf595f304f30db6b18d",
+  "research/midtermsbench_v1_amendment_13.md": "0be366e0ba3b3229b73b171a4abd59b0c8b68022126e4954659a58ba0a09a49a",
+  "research/midtermsbench_v1_amendment_14.md": "c0e24a22f5e12c5f9899681f5a203c2863e744c62be0fbdbef25824c879aea87",
+  "research/midtermsbench_v1_amendment_15.md": "b23baf411baf45b366f003c86911694dfa13f6cd62f9b8cc4d6d4df9e20d3573",
+  "research/midtermsbench_v1_amendment_16.md": "07a68ed391b568237a6b4be169926420ece3a7c01049a663823914114fc1a77c",
+  "research/midtermsbench_v1_amendment_17.md": "1e184e0b8648ccecc8f6aae84fdfa378286b264050a6f7c677a00c2aae1fef4e",
+  "research/midtermsbench_v1_amendment_2.md": "cdffa6ef2e082426348a1509be24a06d650dcdbac26d25575bfbddf9b94f51f3",
+  "research/midtermsbench_v1_amendment_3.md": "cbbb62f966994a88b76f9b1b97d3ac39d881bca4d3d89c9c662aa5c7786dd3cc",
+  "research/midtermsbench_v1_amendment_4.md": "84b54c8da52496cf16d63e05ab44e16d60ae50cce43c2dc2a69e3779b288c59e",
+  "research/midtermsbench_v1_amendment_5.md": "dbc49d7cd82de31653d85501849d3079ef4f2862152dcd8ddffa5348d5debb50",
+  "research/midtermsbench_v1_amendment_6.md": "20800afd19f747be4367fa98b36d0445e4022999d5644d4bf7a6b3085eaaf0a8",
+  "research/midtermsbench_v1_amendment_7.md": "c04849f2d64adb511a2f25336f6aa1448e367c5e34d5583b648c356401000900",
+  "research/midtermsbench_v1_amendment_8.md": "922dabf6b98a38aa46238a836c1957c09c0d28e14fed358463b83405c7236e57",
+  "research/midtermsbench_v1_amendment_9.md": "6d9b811004ece8b832ff7b540abadde5055bcd7b5631bdc7fe8b771bf0cc1e87",
+  "research/midtermsbench_v1_scoring.md": "1de0aad01ef973cf70feff97f04e4147e90554581cd9f1b8ecdf783406aa57e7",
+  "research/results/midterms_a17/MODELS_MANUAL_TODO.md": "6ef1787c2915a3dde40cb442f2750be979c6c9507c5374384048c94b20c44cb2",
+  "research/results/midterms_a17/add5_margin_vs_direct.py": "d9b78bf4a870577b67355883dc294bdf943c26758b48159d7b6ae017def421d9",
+  "research/results/midterms_a17/leak_hits.jsonl": "77b8519b3ae600e12fb37a97b0d9631da4ba5d44d50514d3edec821e6608af35",
+  "research/results/midterms_a17/leak_scan.py": "0fdec747ff6db51e205384039701c48a00a3f7b205adc0fc8feb354d18248ea1",
+  "research/results/midterms_a17/models_manual_template.csv": "1acc371704d801a397de4e2b82b3022e1e1a1235e0d012c4c64891aa7f2ecd55",
+  "research/results/midterms_a17/polymarket_map.json": "25735ccb5e63fb9617847da834fc21294fd32c5e082499fb9a78cb2db2797b35",
+  "research/results/midtermsbench_v1.json": "3bcb9c0f8a7a29046db4567ece7fe94db05f8c2c04834e441d0393d6510e7d51",
+  "sikt/midterms/marginmarket.py": "4a12348979cbc686a5f8e3d00bd73e1fa4a368010e633c9b9c9e111a37113534",
+  "sikt/midterms/margins.py": "48f0976850b37d74e83f482f0fc28384c2172bb9f1aec27cbc1a43973e9c1afd",
+  "sikt/midterms/pollbase.py": "eaf0bedb1f79efd4220c9230cc1d8e3ba319d0e210f22ca5e830352ad3b8c135",
+  "sikt/midterms/polybench.py": "f3ebbda1de523654c5bfb9e2080e7456b76323de706211d506312bdad233979d",
+  "sikt/midterms/salvage.py": "14f156df1f257341041fe65602d06477c9de803b0926da0542a568863f54fdf2",
+  "sikt/midterms/score.py": "741e88ebf6d1ffcedb94a459a4d945b8c95cf836329b32387fcad1e54cd091c4",
+  "sikt/midterms/score_a17.py": "97f261fb907151de5a96a7c8eb6bb0f114df1c6280e9d0b5e11caa87f1a12f30",
+  "sikt/midterms/track_record_v1.json": "7fc3647d78bb164894f4e7f132ad7bc3ca412435791bdbdb4321b102b4a52292",
+  "tests/test_midterms_margins.py": "94abad36cf969a1ff0f5c9c839cbea5d4607ebcf9a536cfb01b83b030dc2bfd0",
+  "tests/test_midterms_score.py": "764e8700cfaa7059557282bc779a7f597d2b1f076b131331c2f8bc8cdec14dfb",
+  "tests/test_midterms_score_a17.py": "578596484202fc31e0f2a317b85abc5591781ff7b63ad80df4b2857d342b56c5"
+ },
+ "forecasts": {
+  "rounds/r11/summary.json": "fe7cd9198d8e649f6bb9f71d0090e52382f12e6ced4f9d86b6829cd49a62bc0a",
+  "rounds/r11/summary_salvage.json": "4afe744885b2ea10a4bbde076c6f06796f0aebab51e3c4750f5bcc365144afb2",
+  "rounds/r11/margins/summary.json": "ffe815a4a1069f7d091ca4c001ac05460dd6ea85dd481792bee11c999ab00a2b",
+  "rounds/r12/summary.json": "ad1831bfbe09ae6a37d45f70728e2927c9e48170de3671f1400b94f8fea5aa7b",
+  "rounds/r12/summary_salvage.json": "078ad2186b49ee48e02b2863bb52cecff55c6eeeff5241f0aeb73725fb7b4347",
+  "rounds/r12/margins/summary.json": "64b87cb4d41d72b18696f48ab967c961b6192211f27904502e3b01a6122a1434",
+  "rounds/r13/summary.json": "ee72075d56aa794667d9e8c44c1cd67c1964405c762f65eedcb2c88f1b10d588",
+  "rounds/r13/summary_salvage.json": "86ad5343ea0424821ae2dfc84db29e0f75dcf21f1c438e8c8a3a8134ca2f54ee",
+  "rounds/r13/margins/summary.json": "4fee139f408875c694d58aa714fa760bd84154a496df2c08f9c4f5b713932490"
+ },
+ "benchmarks": {
+  "margin_market/r11.json": "d7fc5a58571db8d9bd14024786cb49bf50440b6f67f5a4dfd7e16929a6d71348",
+  "margin_market/r11_national.json": "b7e457f13450e44cb280ed811a24b1e8470200d514769c9ffff0327d6b92cb42",
+  "margin_market/r12.json": "ed5ada800f0f9fcbacc7576755ff07aa008ed4ad6be798fbc9c68f373811a219",
+  "margin_market/r12_national.json": "b959a03e7d91114bc4a3dd56a96f745585273bf8f9afbb0016aacf6da1a0c93f",
+  "margin_market/r13.json": "1ac573a46ad77c7ce8f0cf052e92a93e27cd8fad050eeecccd9d5a22a7a453e2",
+  "margin_market/r13_national.json": "5d2e0e164c96146e1d0300bddce154e563c702948e69152b305f381b3e4f0bec"
+ },
+ "sessions": {
+  "how": "per round: sha256 of the text \"<sha256>  <path>\\n\" over every session file (forecasts and rationales), paths sorted",
+  "rounds": {
+   "r11": {
+    "session_files": 538,
+    "sha256_of_listing": "6d5533db1b2c6089a861b2fd7b98ad7a2c883ca71d5323764d31762f4669173b"
+   },
+   "r12": {
+    "session_files": 528,
+    "sha256_of_listing": "650772cbb23b9f1a3b83a7f40d58cbc4bc869f4c4725e68e71159098549b956d"
+   },
+   "r13": {
+    "session_files": 540,
+    "sha256_of_listing": "c8559a683c76558747fce6e676908aacdf2f47dde2b67382425356c6a7aa4987"
+   }
+  }
+ }
+}
